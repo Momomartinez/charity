@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+/* header/navbar */
+.main-header{
+  background-color: teal;
+  width: 100%;
+  padding: 8px 16px;
+}
+.main-header > div {
+ vertical-align: middle; 
+ display: inline-block;
+}
+
+.main-header_brand{
+font-size: 22px;
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.main-nav{
+  vertical-align: middle;
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+}
+
+.main-nav_items{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav_item{
+  margin: 0 16px;
+  display: inline-block;
+}
+
+.main-nav_item a{
+  text-decoration: none;
+  color: white;
+  padding: 3px 0;
+  font-weight: bold;
+}
+
+/* jumbotron-pic section */
+
+#jumbotron-pic{
+  height: 530px;
+  width: 100%;
+  background-color: tomato;
+}
