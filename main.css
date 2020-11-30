@@ -3,11 +3,12 @@
 }
 
 body{
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 /* header/navbar */
 .main-header{
-  background-color: teal;
+  background-color: white;
   width: 100%;
   padding: 8px 16px;
 }
@@ -18,7 +19,7 @@ body{
 
 .main-header_brand{
 font-size: 22px;
-color: white;
+color: rgb(194, 10, 194);
 text-decoration: none;
 font-weight: bold;
 }
@@ -27,7 +28,7 @@ font-weight: bold;
   vertical-align: middle;
   display: inline-block;
   text-align: right;
-  width: calc(100% - 74px);
+  width: calc(100% - 85px);
 }
 
 .main-nav_items{
@@ -43,9 +44,29 @@ font-weight: bold;
 
 .main-nav_item a{
   text-decoration: none;
-  color: white;
+  color: rgb(194, 10, 194);
   padding: 3px 0;
   font-weight: bold;
+}
+
+.main-nav_item a:hover, 
+.main-nav_item:active{
+  border-bottom: 2px solid white;
+}
+
+.main-nav_item--dnt-btn a{
+  background-color: rgb(50, 189, 147);
+  border-radius: 3px;
+  color: rgb(194, 10, 194);
+  padding: 8px 16px;
+}
+
+.main-nav_item--dnt-btn a:hover,
+.main-nav_item--dnt-btn a:active{
+  background-color: white;
+  color: rgb(194, 10, 194);
+  border: 2px solid rgb(194, 10, 194);
+  padding: 8px 14px;
 }
 
 /* jumbotron-pic section */
@@ -53,5 +74,40 @@ font-weight: bold;
 #jumbotron-pic{
   height: 530px;
   width: 100%;
-  background-color: tomato;
+  background: url(imgs/kat-yukawa-K0E6E0a0R3A-unsplash.jpg);
+  padding: 20px;
+}
+
+#jumbotron-pic h1{
+  color: #ffffff;
+}
+
+/* mission-statement section */
+
+#mission-statement{
+  height: 500px;
+  width: 100%;
+  background-color: rgb(25, 0, 255);
+  padding: 20px;
+}
+
+#mission-statement h1{
+  color: #ffffff;
+}
+
+/* featured-items section */
+
+#featured-items{
+  height: 500px;
+  width: 100%;
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+#featured-items h1{
+  color: #ffffff;
+}
+
+#featured-items p{
+color: #ffffff;
 }
