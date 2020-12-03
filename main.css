@@ -19,7 +19,7 @@ body {
 
 .main-header_brand {
   font-size: 22px;
-  color: rgb(194, 10, 194);
+  color: rgb(139, 14, 139);
   text-decoration: none;
   font-weight: bold;
 }
@@ -44,7 +44,7 @@ body {
 
 .main-nav_item a {
   text-decoration: none;
-  color: rgb(194, 10, 194);
+  color: rgb(139, 14, 139);
   padding: 3px 0;
   font-weight: bold;
 }
@@ -57,15 +57,15 @@ body {
 .main-nav_item--dnt-btn a {
   background-color: rgb(50, 189, 147);
   border-radius: 3px;
-  color: rgb(194, 10, 194);
+  color: rgb(139, 14, 139);
   padding: 8px 16px;
 }
 
 .main-nav_item--dnt-btn a:hover,
 .main-nav_item--dnt-btn a:active {
   background-color: white;
-  color: rgb(194, 10, 194);
-  border: 2px solid rgb(194, 10, 194);
+  color: rgb(139, 14, 139);
+  border: 2px solid rgb(139, 14, 139);
   padding: 8px 14px;
 }
 
