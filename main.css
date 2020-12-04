@@ -26,17 +26,13 @@ body {
   text-align: right;
 }
 
-
-
-
-
 /* header/navbar */
 .main-header {
   background-color: white;
   width: 100%;
-  padding: 16px 32px;
+  padding: 16px 48px;
 }
-.main-header > div {
+.main-header div {
   vertical-align: middle;
   display: inline-block;
 }
@@ -51,8 +47,8 @@ body {
 .main-nav {
   vertical-align: middle;
   display: inline-block;
-  text-align: right;
-  width: calc(100% - 135px);
+  text-align: center;
+  width: calc(100% - 270px);
 }
 
 .main-nav_items {
