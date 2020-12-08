@@ -1,101 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-}
-
-/* top header contact and social icons */
-.top-header{
-  width: 100%;
-  margin: 0;
-  background: rgb(45, 110, 185);
-  padding: 8px 32px;
-  color: white;
-}
-
-.left {
- display: inline-block;
-}
-
-.right{
-  width: calc(100% - 250px);
-  display: inline-block;
-  text-align: right;
-}
-
-/* header/navbar */
-.main-header {
-  background-color: white;
-  width: 100%;
-  padding: 16px 48px;
-}
-.main-header div {
-  vertical-align: middle;
-  display: inline-block;
-}
-
-.main-header_brand {
-  font-size: 35px;
-  color: rgb(45, 110, 185);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.main-nav {
-  vertical-align: middle;
-  display: inline-block;
-  text-align: center;
-  width: calc(100% - 270px);
-}
-
-.main-nav_items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.main-nav_item {
-  margin: 0 16px;
-  display: inline-block;
-}
-
-.main-nav_item a {
-  text-decoration: none;
-  color: black;
-  padding: 3px 0;
-  font-weight: 500;
-}
-
-.main-nav_item a:hover,
-.main-nav_item:active {
-  border-bottom: 2px solid rgb(45, 110, 185);
-  color: rgb(45, 110, 185);
-}
-
-.main-nav_item--dnt-btn a {
-  background-color:rgb(45, 110, 185);
-  border-radius: 3px;
-  color: white;
-  padding: 8px 16px;
-}
-
-.main-nav_item--dnt-btn a:hover,
-.main-nav_item--dnt-btn a:active {
-  background-color: white;
-  color: rgb(45, 110, 185);
-  border: 2px solid rgb(45, 110, 185);
-  padding: 8px 14px;
-}
-
 /* jumbotron-pic section */
-
 #jumbotron-pic {
   height: 530px;
   width: 100%;
-  background: url(imgs/sergiu-valena-spAc4S6F4zg-unsplash\ \(1\).jpg);
+  background: url(imgs/landing.jpg);
   padding: 20px;
   object-fit: cover;
   background-size:1000px;
@@ -107,7 +14,6 @@ body {
 }
 
 /* mission-statement section */
-
 #mission-statement {
   width: 100%;
   padding: 20px;
@@ -126,7 +32,6 @@ body {
 }
 
 /* stattistics section */
-
 #statistics-features{
   width: 100%;
   background-color: rgb(45, 110, 185);
