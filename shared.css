@@ -93,12 +93,12 @@ body {
 /* footer */
 #main-footer{
   background: #0e3d77;
-  padding: 200px;
-  text-align: center;
+  padding: 32px;
+  margin-top: 48px;
 }
 
 .main-footer__links{
-  display: inline-block;
+  text-align: center;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -107,10 +107,9 @@ body {
 .main-footer__link{
   display: inline-block;
   padding: 0 16px;
-  vertical-align: middle;
 }
 
 .main-footer__link a{
   color: white;
   text-decoration: none;
-  fon
+ }

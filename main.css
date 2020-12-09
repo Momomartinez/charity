@@ -39,37 +39,37 @@
 #statistics-features{
   width: 100%;
   background-color: #f7f7f7;
-  padding: 32px;
+  padding: 16px;
+  margin-top: 80px;
   text-align: center;
-  vertical-align: middle;
 }
 
 #statistics-features .section-title {
   color: #0e3d77;
+  margin: 32px;
 }
 
 .statistics-feature{
-  padding: 32px;
   display: inline-block;
   width: 30%;
-  /* border: 4px solid rgb(20, 53, 91); */
   background:white;
-  margin: 8px;
   border-radius: 8px;
+  vertical-align: top;
 }
 
 .statistics-feature__stat{
   color: #0e3d77;
 }
 .statistics-feature__stat--info{
-  color: rgb(136, 138, 141);
+  color: #888a8d;
+  
 }
 
 .statistics-feature__icon{
   height: 150px;
   width: 150px;
-  background: rgba(45, 110, 185, 0.146);
+  background: #2d6eb925;
   border-radius: 50%;
   margin: auto;
-  /* border: 4px solid rgb(20, 53, 91); */
+
 }
