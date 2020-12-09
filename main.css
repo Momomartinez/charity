@@ -9,7 +9,7 @@
 }
 
 #jumbotron-pic h1 {
-  color:rgb(45, 110, 185);
+  color:#2d6eb9;
   text-align: right;
 }
 
@@ -20,9 +20,13 @@
 }
 
 .section-title {
-  color: rgb(45, 110, 185);
+  color:#2d6eb9;
   text-align: center;
   font-size: 38px;
+}
+
+.section-title span{
+  color: #0e3d77;
 }
 
 #mission-statement h3{
@@ -34,14 +38,14 @@
 /* stattistics section */
 #statistics-features{
   width: 100%;
-  background-color: rgb(45, 110, 185);
+  background-color: #f7f7f7;
   padding: 32px;
   text-align: center;
   vertical-align: middle;
 }
 
 #statistics-features .section-title {
-  color: white;
+  color: #0e3d77;
 }
 
 .statistics-feature{
@@ -55,7 +59,7 @@
 }
 
 .statistics-feature__stat{
-  color: rgb(14, 61, 119);
+  color: #0e3d77;
 }
 .statistics-feature__stat--info{
   color: rgb(136, 138, 141);
