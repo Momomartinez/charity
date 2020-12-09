@@ -15,8 +15,8 @@
 
 /* mission-statement section */
 #mission-statement {
-  width: 100%;
   padding: 20px;
+  text-align: center;
 }
 
 .section-title {
@@ -29,10 +29,11 @@
   color: #0e3d77;
 }
 
-#mission-statement h3{
+#mission-statement p{
   color: black;
-  text-align: center;
   font-weight: 400;
+  width: 80%;
+  margin: auto;
 }
 
 /* stattistics section */
