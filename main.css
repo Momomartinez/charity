@@ -17,6 +17,7 @@
 #mission-statement {
   padding: 20px;
   text-align: center;
+ 
 }
 
 .section-title {
@@ -36,7 +37,7 @@
   margin: auto;
 }
 
-/* stattistics section */
+/* stattistics section 
 #statistics-features{
   width: 100%;
   background-color: #f7f7f7;
@@ -73,4 +74,46 @@
   border-radius: 50%;
   margin: auto;
 
+}
+*/
+
+#statistics-features{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.statistics-feature__list{
+  margin: auto;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.statistics-feature__stat{
+  color: white;
+  display: inline-block;
+  width: 30%;
+  background: #2d6eb9f6;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+.statistics-feature__stat--info{
+  color: #888a8d;
+  
+}
+
+.statistics-feature__icon{
+  height: 120px;
+  width: 120px;
+  background: #2d6eb925;
+  border-radius: 50%;
+  margin: auto;
+
+}
+
+ul{
+  display: flex;
 }
